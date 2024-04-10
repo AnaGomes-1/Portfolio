@@ -8,6 +8,9 @@ const GlobalStyle = createGlobalStyle`
   padding:0;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
+  body{
+    background-color: #1f0322f2;
+  }
 
 }
 `

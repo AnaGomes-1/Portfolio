@@ -21,9 +21,22 @@ a{
 li:hover{
     transform: scale(1.2); 
     transition: transform 0.4s ease-in-out;
+    
 }
 a:hover{
     color: gold;
+}
+
+
+@media(min-width: 320px) and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    border: solid red;
+    a{
+        font-size: 2rem;
+    }
+    
 }
 `
 
@@ -38,8 +51,13 @@ background-color: #ff4f78eb;
 
 
 img{
-    height: 38vh;
-    border-radius: 40%;
+    height: 48vh;
+    border-radius: 47%;
+}
+
+.redesSociais:hover{
+    transform: scale(1.2); 
+    transition: transform 0.4s ease-in-out;
 }
 
 h2{
@@ -53,6 +71,18 @@ display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 height: 40vh;
+
+@media(min-width: 320px) and (max-width: 768px){
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+    img{
+        width: 20vw;
+    }
+}
 `
 
 export const BoxInicio = styled.div`
@@ -78,6 +108,7 @@ img{
 export const Sobre = styled.main`
     display: flex;
     justify-content: space-evenly;
+    color: #ffffffea;
 `
 
 export const Estudos = styled.section`
@@ -87,6 +118,7 @@ export const Estudos = styled.section`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
 `
 
 export const Habilidades = styled.section`
@@ -121,4 +153,20 @@ h2{
     text-align: center;
 }
 `
+
+//---------galeria
+
+export const Fotos = styled.section`
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+img{
+    margin: 0.5rem;
+}
+
+`
+export const Carousel = styled.section`
+`
+    
     
