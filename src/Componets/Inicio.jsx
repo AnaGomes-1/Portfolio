@@ -18,9 +18,9 @@ function Inicio(){
                    
                 </S.BoxInicio>
                 <S.BoxInicio2>
-                <a href="https://github.com/AnaGomes-1"><img className="redesSociais" src={GitHub} alt="Logo do GitHub" /></a>
-                <a href="https://www.linkedin.com/in/ana-beatriz-gomes-62b52070/"><img className="redesSociais" src={Linkedin} alt="Logo do Linkedin" /></a>
-                <a href="https://www.instagram.com/sweetieab/"><img className="redesSociais" src={Instagram} alt="Logo do Instagram" /></a>
+                <a href="https://github.com/AnaGomes-1" target="_blank"><img className="redesSociais" src={GitHub} alt="Logo do GitHub" /></a>
+                <a href="https://www.linkedin.com/in/ana-beatriz-gomes-62b52070/" target="_blank"><img className="redesSociais" src={Linkedin} alt="Logo do Linkedin" /></a>
+                <a href="https://www.instagram.com/sweetieab/" target="_blank"><img className="redesSociais" src={Instagram} alt="Logo do Instagram" /></a>
                 </S.BoxInicio2>
             </S.ContainerDivs>
 
