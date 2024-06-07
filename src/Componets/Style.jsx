@@ -80,7 +80,7 @@ h2{
 }
 
     img{
-        width: 20vw;
+        width: 29vw;
     }
 }
 `
@@ -114,16 +114,22 @@ export const Sobre = styled.main`
 export const Estudos = styled.section`
     width: 30vw;
     height: 50vh;
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+
+    .LogoSenai{
+    height: 25vh;
+    align-items: baseline;
+}
 `
+
 
 export const Habilidades = styled.section`
     width: 30vw;
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -138,6 +144,9 @@ div{
 img{
     height: 8vh;
 }
+
+
+
 `
 
 export const Profissional = styled.section`
@@ -152,6 +161,8 @@ background-image: url("");
 h2{
     text-align: center;
 }
+
+
 `
 
 //---------galeria

@@ -1,9 +1,13 @@
 import React from "react"
 import Vnw from "./Imagens/vnw.png"
+import Senai from "./Imagens/FirjanSENAI-01.png"
 import Css from "./Imagens/css.png"
 import Html from "./Imagens/html.png"
 import Js from "./Imagens/javascript.png"
-import Mic from "./Imagens/mic.png"
+import SQL from "./Imagens/sql1.png"
+import Java from "./Imagens/java.png"
+import Phyton from "./Imagens/python.png"
+
 import * as S from "./Style.jsx"
 
 
@@ -17,7 +21,19 @@ function Sobre(){
                     <h2>Desenvolvimento Front-End</h2>
                     <h3>AGO/2023 - MAIO/2024</h3>
                 </div>
-                    <img src={Vnw} alt="" />
+                    <img src={Vnw} alt="Logo do Vai na Web" />
+
+                <div>
+                    <h2>Desenvolvimento Back-End</h2>
+                    <h2>JULHO/2023 - DEZ/2023</h2>
+                </div>
+                    <img className="LogoSenai" src={Senai} alt="Logo do Senai" />
+
+                <div>
+                    <h2>Técnico em Informática</h2>
+                    <h2>AGO/2023 - DEZ/2024</h2>
+                    <img className="LogoSenai" src={Senai} alt="Logo do Senai" />
+                </div>
             </S.Estudos>
 
             <S.Habilidades>
@@ -36,14 +52,24 @@ function Sobre(){
                     <img src={Html} alt="" />
                     <h3>HTML</h3>
                 </div>
+
+                <div>
+                    <img src={SQL} alt="" />
+                    <h3>SQL</h3>
+                </div>
+
+                <div>
+                    <img src={Phyton} alt="" />
+                    <h3>Python</h3>
+                </div>
+
+                <div>
+                    <img src={Java} alt="" />
+                    <h3>Java</h3>
+                </div>
             </S.Habilidades>
 
-            <S.Profissional>
-                <h2>PROFISSIONAL</h2>
-                    <h2>Cantora, compositora, produtora musicas e atriz</h2>
-                    <img src={Mic} alt="" />
-            </S.Profissional>
-
+            
         </S.Sobre>
     )
 }
