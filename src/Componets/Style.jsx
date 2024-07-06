@@ -50,6 +50,7 @@ align-items: center;
 background-color: #ff4f78eb;
 
 
+
 img{
     height: 48vh;
     border-radius: 47%;
