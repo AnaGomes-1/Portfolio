@@ -32,8 +32,9 @@ function Sobre(){
                 <div>
                     <h2>Técnico em Informática</h2>
                     <h2>AGO/2023 - DEZ/2024</h2>
-                    <img className="LogoSenai" src={Senai} alt="Logo do Senai" />
                 </div>
+                    <img className="LogoSenai" src={Senai} alt="Logo do Senai" />
+                    
             </S.Estudos>
 
             <S.Habilidades>

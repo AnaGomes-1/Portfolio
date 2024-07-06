@@ -40,6 +40,11 @@ a:hover{
 }
 `
 
+//-----Estilização para Projetos
+
+
+
+
 //-----Estilização para o Início
 export const SectionInicio = styled.section`
 height: 80vh;
@@ -113,28 +118,34 @@ export const Sobre = styled.main`
 `
 
 export const Estudos = styled.section`
+    margin-top: 10px;
     width: 30vw;
-    height: 50vh;
+    height: 90vh;
     /* border: solid red; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    background-color: #1f0322e1;
+    border-radius: 8%;
 
     .LogoSenai{
-    height: 25vh;
+    height: 22vh;
     align-items: baseline;
 }
 `
 
 
 export const Habilidades = styled.section`
+    margin-top: 10px;
     width: 30vw;
-    /* border: solid red; */
+    height: 44vw;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    background-color: #1f0322e1;
+    border-radius: 8%;
 
 div{
     display: flex;
@@ -144,6 +155,7 @@ div{
 
 img{
     height: 8vh;
+    align-items: center;
 }
 
 
